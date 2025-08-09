@@ -1,1 +1,51 @@
 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atencion-psicologica.com</title>
+    <style>
+        body{ 
+            background-color: rgb(109, 49, 49);
+        }
+        .flex-container{
+            display: flex;
+            background-color: rgb(230, 163, 163);
+            max-width: fit-content;
+            margin: auto;
+            padding: 15px;
+            border-radius: 25px;
+            border-width: 2px;
+            border-color: black;
+            border-style: solid;
+        }
+        .flex-container1{
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="flex-container">
+        <h1>Atencion psicologica</h1>
+    </header>
+    <main class="flex-container1">
+        <div class="box1">¿Necesitas ayuda en este momento?</div>
+        <div class="box2"><img src="" alt=""></div> <!--imagen con texto-->
+        <div class="box3"><img src="" alt=""></div>
+        <div class="box4"><img src="" alt=""></div>
+    </main>
+    <aside> <!--acerca de nosotros-->
+        <div class="acerca-de">
+            <ul>
+                <li>Facebook</li>
+                <li>Instagram</li>
+                <li>Whatsapp</li>
+                <li>e-mail</li>
+            </ul> </div> <!--links de paginas sociales-->
+        </div>
+    </aside>
+</body>
+</html>
